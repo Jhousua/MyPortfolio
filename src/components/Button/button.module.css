@@ -1,0 +1,16 @@
+.container {
+  width: max-content;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #a3800e;
+  border: none;
+  color: white;
+  font-weight: 500;
+}
+
+.container:hover {
+  background-color: #e9c564;
+  transition: 0.7s;
+  color: black;
+}

@@ -12,27 +12,11 @@
 
 .insidecon .title {
   font-size: 72px;
-  background: -webkit-linear-gradient(#90eb9f, #726e6e);
+  background: -webkit-linear-gradient(#a3800e, #726e6e);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .insidecon p {
   font-size: 20px;
   font-weight: 300;
-}
-.insidecon .btn {
-  width: max-content;
-  padding: 10px;
-  border-radius: 8px;
-  cursor: pointer;
-  background-color: #397451;
-  border: none;
-  color: white;
-  font-weight: 500;
-}
-
-.insidecon .btn:hover {
-  background-color: #aee4c3;
-  transition: 0.7s;
-  color: black;
 }

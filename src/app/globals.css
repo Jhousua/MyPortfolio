@@ -32,13 +32,13 @@ body {
   border-radius: 8px;
 }
 .Nav .headers .heads:hover {
-  background-color: rgb(42, 90, 42);
+  background-color: #a3800e;
   color: white;
   transition-duration: 0.6s;
   font-weight: 500;
 }
 .container {
-  max-width: 1366px;
+  max-width: 1700px;
   min-height: 100vh;
   margin: 0 auto;
   padding: 0 60px;
