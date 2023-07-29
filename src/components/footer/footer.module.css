@@ -6,6 +6,14 @@
 .footer .icons {
   display: flex;
   gap: 20px;
-  opacity: 0.7;
   cursor: pointer;
+}
+.footer .icons .socialIcon {
+  opacity: 0.7;
+  transition: transform 0.4s;
+}
+
+.footer .icons .socialIcon:hover {
+  opacity: 1;
+  transform: scale(1.5);
 }

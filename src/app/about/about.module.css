@@ -1,6 +1,64 @@
 .container {
 }
-.img {
-  width: 1500px;
-  height: 200px;
+.textImgCon {
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  gap: 30px;
+  margin: 0 auto;
+}
+.profile {
+  border-radius: 10px;
+}
+.textCon p {
+  font-size: 20px;
+}
+.textCon h1 {
+  color: #a3800e;
+}
+.form {
+  padding: 0 20px;
+  border-style: solid;
+  border: 0;
+  width: 600px;
+  /* width: fit-content; */
+  background-color: rgb(34, 33, 33);
+  border-radius: 10px;
+  height: fit-content;
+}
+.formCon {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin: 0 auto;
+  width: fit-content;
+}
+.textArea {
+  width: 100%;
+  height: 100px;
+  border-radius: 8px;
+  font-size: 20px;
+}
+.text {
+  margin: 50px auto;
+}
+.text h2 {
+  color: #a3800e;
+}
+.text input {
+  border-radius: 5px;
+  padding: 8px 0;
+  font-size: 20px;
+}
+.text button {
+  margin-top: 10px;
+  padding: 8px 20px;
+  border-radius: 8px;
+  border-style: none;
+  transition: 0.5s;
+}
+
+.text button:hover {
+  background-color: #a3800e;
+  color: white;
 }

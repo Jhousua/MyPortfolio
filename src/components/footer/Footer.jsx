@@ -11,6 +11,7 @@ const Footer = () => {
         <div className={styles.links}>
           <Link href="https://web.facebook.com/jhousua.jumalon.90/">
             <Image
+              className={styles.socialIcon}
               src="/facebook.png"
               width={25}
               height={25}
@@ -20,12 +21,19 @@ const Footer = () => {
         </div>
 
         <Image
+          className={styles.socialIcon}
           src="/instagram.png"
           width={25}
           height={25}
           alt="instagram icons"
         />
-        <Image src="/twitter.png" width={25} height={25} alt="twitter icons" />
+        <Image
+          className={styles.socialIcon}
+          src="/twitter.png"
+          width={25}
+          height={25}
+          alt="twitter icons"
+        />
       </div>
     </div>
   );
